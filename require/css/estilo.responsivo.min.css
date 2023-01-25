@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+
+/*   1024 px | Ipad / tablet     **/
+@media only screen and (max-width: 1024px){
+
+}
+
+/*   823 px | Ipad / tablet*/
+@media only screen and (max-width: 820px) {
+
+
+}
+
+/*   768 px | Ipad / tablet*/
+@media only screen and (max-width: 768px) {
+
+}
+
+/*   736 px | Ipad / tablet*/
+@media only screen and (max-width: 736px) {
+
+}
+
+/*   731 px | Ipad / tablet*/
+@media only screen and (max-width: 731px) {
+
+}
+
+/*   667 px | mobile Iphone Plus  **/
+@media only screen and (max-width: 667px) {
+
+}
+
+/*   640 px | mobile Iphone Plus  **/
+@media only screen and (max-width: 640px) {
+
+
+}
+
+/*    414 px | mobile Iphone Plus  **/
+@media only screen and (max-width: 414px) {
+ 
+
+}
+
+/*    411 px | mobile  */
+@media only screen and (max-width: 411px) {
+ 
+}
+
+/*    375 px | mobile     **/
+@media only screen and (max-width: 375px) {
+
+}
+
+/*    360 px | mobile     **/
+@media only screen and (max-width: 360px) {
+
+}
+
+/*    320 px | mobile IPhone   **/
+@media only screen and (max-width: 320px) {
+
+}
+
+/*   280 px | mobile Iphone Plus  **/
+@media only screen and (max-width: 280px) {
+
+}
+
