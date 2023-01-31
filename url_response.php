@@ -5,7 +5,7 @@ if(!defined('BASE_DEV')){
 }
 
 if(!defined('BASE')){
-  define('BASE','http://localhost/felipegoncalves/boot/');
+  define('BASE','http://localhost/w1-agencia/fatcred/');
   //define('BASE','http://www.oftalmologicopontapora.com.br/');
 }
 
