@@ -3,7 +3,7 @@
 <html lang="pt-br">
 <head>
 
-  <title>Fatcred Imprestimos e Financiamentos</title>
+  <title>Fatcred Empréstimos e Financiamentos</title>
   <meta charset="UTF-8">
   <meta name="viewport"              content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,7 @@
   <meta property="og:site_name"    content="Fatcred">
   <meta property="og:url"          content="<?= BASE ?>" />
   <meta property="og:type"         content="website" />
-  <meta property="og:title"        content="Fatcred Imprestimos e Financiamentos" />
+  <meta property="og:title"        content="Fatcred Empréstimos e Financiamentos" />
   <meta property="og:description"  content="Empréstimos para aposentados e pensionista do INSS, empréstimo de cartão de crétido e Saque FGTS " />
   <meta property="og:image"        content="<?= BASE_IMG ?>marcas/logo-fatcred.png" />
 
@@ -42,13 +42,13 @@
           <section id = "apresentacao" class = "pt-5 pb-5 f-azul-escuro">
             <div class="container  pb-5 pt-5 mt-5">
               <div class="row mt-5">
-                <div class="col-9 col-sm-4 col-lg-2">
+                <div class="col-9 col-sm-12 col-lg-2">
                   
                     <img  src = "<?= BASE_IMG ?>extra/slide.png"/>
 
 
                 </div>
-                <div class="col-12 col-sm-11 col-lg-6">
+                <div class="col-12 col-sm-12 col-lg-6">
                     
                     <h1 class="display-3 negrito branco">
                       O melhor crédito para você
@@ -172,22 +172,22 @@
                   <h1 class="display-3 negrito cinza-5">INSS</h1>
                 </div>
 
-                <div class="col-12 col-sm-12 col-lg-8 d-flex">
+                <div class="col-12 col-sm-12 col-lg-8 d-flex para-pc">
                   <div class = "align-self-center" style = "width: 100%; height: 5px; background-color: var(--cor-cinza-500);"></div>
                 </div>
 
               </div>
 
-              <div class="row mt-5">
+              <div class="row mt-5 w-75 m-auto">
                 <div class="col-12 col-sm-12 col-lg-1"></div>
                 <div class="col-12 col-sm-12 col-lg-5 m-auto">
 
-                    <div class="row decimo-terceiro ">
+                    <div class="row decimo-terceiro mb-4">
                           <div class="col-2 col-sm-2 col-lg-2">
                               <img src="<?= BASE_IMG ?>extra/decimo-icone.png">
                           </div>
 
-                          <div class="col-2 col-sm-2 col-lg d-flex">
+                          <div class="col-10 col-sm-10 col-lg d-flex">
                             <p class = "branco f-26 align-self-center">
                               Antecipação de
                               <b>Décimo Terceiro</b>
@@ -206,7 +206,7 @@
                               <img src="<?= BASE_IMG ?>extra/responsavel-legal.png">
                           </div>
 
-                          <div class="col-2 col-sm-2 col-lg d-flex">
+                          <div class="col-10 col-sm-10 col-lg d-flex">
                             <p class = "branco f-26 align-self-center ">
                               Empréstimos para                               
                               <b>Representate Legal</b>
@@ -241,33 +241,33 @@
               </div>
 
 
-              <div class="row pt-5 mt-5 f-16 negrito branco">
-                <div class="col-12 col-sm-6 col-lg-2 m-auto">
+              <div class="row pt-5 mt-5 f-16 negrito  centro">
+                <div class="col-6 col-sm-6 col-lg-2 m-auto ">
                   <img src="<?= BASE_IMG ?>extra/aposentados-emp.png">
                   <p>
                     Para Aposentados
                   </p>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-2 m-auto">
+                <div class="col-6 col-sm-6 col-lg-2 m-auto">
                   <img src="<?= BASE_IMG ?>extra/pensionaistas-emp.png">
                   <p>
                     Para Pensionistas
                   </p>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-2 m-auto">
+                <div class="col-6 col-sm-6 col-lg-2 m-auto">
                   <img src="<?= BASE_IMG ?>extra/servidores-emp.png">
                   <p>
                     Para Servidor Público 
                   </p>
                 </div>
-                <div class="col-12 col-sm-6 col-lg-2 m-auto">
+                <div class="col-6 col-sm-6 col-lg-2 m-auto">
                   <img src="<?= BASE_IMG ?>extra/forcas-emp.png">
                   <p>
                     Para Forças Armadas
                   </p>
                 </div>
 
-                <div class="col-12 col-sm-6 col-lg-2 m-auto">
+                <div class="col-6 col-sm-6 col-lg-2 m-auto">
                   <img src="<?= BASE_IMG ?>extra/credito-emp.png">
                   <p>
                     Cartões de Crédito
@@ -351,7 +351,7 @@
           <section id = "fgts" class="fundo-azul-escuro pt-5">
             <div class="container pt-5 pb-5">
               <div class="row mt-5">
-                <div class="col-12 col-sm-10 col-lg-5">
+                <div class="col-11 col-sm-10 col-lg-5">
                     <h1 class="display-3 branco negrito">
 
                       Consulte seu
@@ -380,7 +380,7 @@
               </div>
 
               <div class="row mt-5 mb-5 pt-5">
-                <div class="col-12 col-ms-12 col-lg-9 m-auto ">
+                <div class="col-11 col-ms-12 col-lg-9 m-auto ">
                     
 
                     <div class="item-depoimentos">
@@ -406,9 +406,8 @@
           </section>
 
           <!-- === mensagem === -->
-          <section id = "mensagem" class = "pt-5">
-            <div class="bg"></div>
-            <div class="container pt-5 mb-5">
+          <section id = "mensagem" class = "pt-5 pb-5">
+            <div class="container pt-5 pb-5 mb-5">
               <div class="row pt-5 mt-5">
                 <div class="col-12 col-sm-12 col-lg-12 centro branco negrito">
                   <h1 class="display-5">Envie uma <b>mensagem!</b></h1>
@@ -419,31 +418,38 @@
               <div class="row mt-5 mb-5 pt-4">
                 <div class="col">
                     
-                    <form id = "formularioHome">
+                    <form id = "formularioHome" action="post">
                       <div class="row">
                         <div class="col">
+                           <div id="repostas"></div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-11 col-sm-11 col-lg-6">
                             
-                            <div class="mb-3">
-                              <input type="text" class="form-control" name = "nome" id="nome" placeholder="Seu nome completo">
+                            <div class="mb-3 col-12">
+                              <input type="text" class="form-control" name = "nome" id="nome" placeholder="Seu nome completo" required>
                             </div>
 
-                            <div class="mb-3">
-                              <input type="email" class="form-control" name = "email" id="email" placeholder="Seu e-mail">
+                            <div class="mb-3 col-12">
+                              <input type="email" class="form-control" name = "email" id="email" placeholder="Seu e-mail" required>
                             </div>
 
-                            <div class="mb-3">
-                              <input type="phone" class="form-control" name = "fone" id="fone" placeholder="Seu WhatsApp">
+                            <div class="mb-3 col-12">
+                              <input type="tel" class="form-control" name = "fone" id="fone" placeholder="Seu WhatsApp" required>
                             </div>
 
                         </div>
 
-                        <div class="col">
+                        <div class="col-11 col-sm-11 col-lg-6">
                             
-                            <div class="mb-3">
-                              <textarea class="form-control" name = "msg" id="msg" placeholder="Escreva sua mensagem"></textarea>
+                            <div class="mb-3 col-12">
+                              <textarea class="form-control" name = "msg" id="msg" placeholder="Escreva sua mensagem" required></textarea>
                             </div>
 
-                            <div class="mb-3">
+                            <div class="mb-3 col-12">
+                              <input type="hidden" name="img_url" value = "<?= BASE_IMG ?>">
+                              <input type="hidden" name="base_url" value = "<?= BASE ?>">
                                 <button type="submit" class="botao b-laranja botao-total negrito f-18 mb-3">Enviar meu contato</button>
                             </div>
 
@@ -465,8 +471,10 @@
   <script src="<?= BASE_JS ?>jquery.min.js"></script>
   <script src="<?= BASE_JS ?>popper.min.js"></script>
   <script src="<?= BASE_JS ?>bootstrap.min.js"></script>
+  <script src="<?= BASE_JS ?>jquery.mask.min.js"></script>
   <script>
     jQuery(function () {
+
       jQuery(window).scroll(function () {
         var height = $('header').outerHeight(true);
         if (jQuery(this).scrollTop() > 0) {
@@ -477,6 +485,29 @@
          $("header").removeClass("header-fixo");
         }
       });
+
+
+
+      $("#fone").mask("(99) 9 9999-9999");
+
+      $('#formularioHome').submit(function(){
+        $.ajax({
+           url: 'index.form.php',
+           type: 'POST',
+           data: $('#formularioHome').serialize(),
+           success: function(data){
+                $('#repostas').html(data);
+                $("#repostas").show('fast');
+              setTimeout(function(){
+                $('#repostas').html(data);
+                $("#repostas").hide('show');
+              }, 10000);
+               //$('#repostas').html(data); 3000
+           }
+        });
+        return false;
+      });
+
     });
   </script>
 
