@@ -23,7 +23,7 @@
 
 
   <link rel="canonical" href="<?= BASE ?>">
-  <link rel="icon" href="<?= BASE_IMG ?>marcas/isotipo-fatcred.png">
+  <link rel="icon" href="<?= BASE_IMG ?>marcas/logo_icone.png">
   <link rel="stylesheet" href="<?= BASE_CSS ?>bootstrap.min.css">
   <link rel="stylesheet" href="<?= BASE_CSS ?>fg.min.css">  
   <link rel="stylesheet" href="<?= BASE_CSS ?>estilo.responsivo.min.css">
@@ -229,7 +229,7 @@
             <div class="container pt-5 mt-5">
               <div class="row mb-5">
                 <div class="col-12 col-sm-12 col-lg-4 centro m-auto">
-                  <h1 class = "display-4 negrito">Empréstimos</h1>
+                  <h1 class = "display-4 negrito cinza-9">Empréstimos</h1>
                 </div>
                 <div class="col-12 col-sm-12 col-lg-4 m-auto">
                     <div class="texto-titulo f-cinza-8 branco">
@@ -418,7 +418,7 @@
               <div class="row mt-5 mb-5 pt-4">
                 <div class="col">
                     
-                    <form id = "formularioHome" action="post">
+                    <form id = "formularioHome" action="" method="POST">
                       <div class="row">
                         <div class="col">
                            <div id="repostas"></div>
@@ -472,6 +472,7 @@
   <script src="<?= BASE_JS ?>popper.min.js"></script>
   <script src="<?= BASE_JS ?>bootstrap.min.js"></script>
   <script src="<?= BASE_JS ?>jquery.mask.min.js"></script>
+    <script src="<?= BASE_JS ?>jquery.mask.min.js"></script>
   <script>
     jQuery(function () {
 
@@ -492,7 +493,7 @@
 
       $('#formularioHome').submit(function(){
         $.ajax({
-           url: 'index.form.php',
+           url: 'app/index.form.php',
            type: 'POST',
            data: $('#formularioHome').serialize(),
            success: function(data){

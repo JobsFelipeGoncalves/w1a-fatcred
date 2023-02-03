@@ -35,26 +35,26 @@
         //$mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
         $mail->CharSet = 'UTF-8';
         $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host       = 'smtp.uni5.net';                     //Set the SMTP server to send through  smtp.fatcred.com.br
-        $mail->SMTPAuth   = true;                                   //Enable SMTP authentication -- true
-        $mail->Username   = 'relacionamento@fatcred.com.br';                     //SMTP username
-        $mail->Password   = 'Relfc!101020';                               //SMTP password
+        $mail->Host       = 'smtp.oftalmologicopontapora.com.br';                     //Set the SMTP server to send through smtp.kinghost.net
+        $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
+        $mail->Username   = 'relacionamento@oftalmologicopontapora.com.br';                     //SMTP username
+        $mail->Password   = 'u2u3m8w3';                               //SMTP password
         // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
-        $mail->SMTPSecure = 'ssl';    // SSL REQUERIDO pelo GMail ssl tls
+        $mail->SMTPSecure = 'ssl';    // SSL REQUERIDO pelo GMail
 
         //Recipients
-        $mail->setFrom('relacionamento@fatcred.com.br', 'Contato - Fatcred');
-        $mail->addAddress('relacionamento@fatcred.com.br', 'Formulário do site');     //Add a recipient
+        $mail->setFrom('relacionamento@oftalmologicopontapora.com.br', 'Contato - COPP');
+        $mail->addAddress('relacionamento@assessoriaintegra.com.br', 'Relacionamento');     //Add a recipient
         // $mail->addAddress('ellen@example.com');               //Name is optional
 
 
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
-        $mail->Subject = $nome.' solicitou um contato';
+        $mail->Subject = $nome.' enviou uma mensagem pelo seu site';
         $mail->Body    = '
                           <div style = "padding: 30px; margin: 10px;">
-                               <img src = "'. $link_logo .'marcas/logo_c.png" style = "width: 150px;">
+                               <img src = "'. $link_logo .'marcas/logo.png" style = "width: 150px;">
                                <hr>
                                <h3>Você recebeu um novo contato!</h3>
                                <p style = "padding: 20px; margin: 10px; background-color: #fafafa; ">
@@ -85,7 +85,7 @@
 
         if($mail->send()){
           echo '
-               <div class = "respostas-retorno centro alert alert-success"> Suas informações foram enviadas. Agora é só aguardar que entraremos em contato.</div>
+               <div class = "respostas-retorno centro alert alert-success"> Suas informações foram enviadas. Agora é só aguardar que entraremos em contato</div>
           ';
 
           echo '

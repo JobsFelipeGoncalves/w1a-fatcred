@@ -4,7 +4,6 @@
 
 	$urlpatterns = array(
 
-		'/trabalhe-conosco' => 'trabalhe-conosco.php',
 
 		'/?(?P<ads>\S+)' => 'index.php',
 		'/' => 'index.php',		

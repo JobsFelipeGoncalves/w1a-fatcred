@@ -5,8 +5,8 @@ if(!defined('BASE_DEV')){
 }
 
 if(!defined('BASE')){
-  define('BASE','http://localhost/w1-agencia/fatcred/');
-  //define('BASE','http://www.oftalmologicopontapora.com.br/');
+  //define('BASE','http://localhost/w1-agencia/fatcred/');
+  define('BASE','http://www.fatcred.com.br/demo/');
 }
 
 if(!defined('BASE_IMG')){
@@ -26,7 +26,7 @@ if(!defined('BASE_JS')){
 }
 
 if(!defined('PROJECT_DIR'))
-  define('PROJECT_DIR', 'proversaude');
+  define('PROJECT_DIR', 'demo');
   //define('PROJECT_DIR', '/');
 
 if(!defined('APPLICATION_DIR'))
