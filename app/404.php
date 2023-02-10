@@ -53,7 +53,7 @@
     </div><!-- fim 404 -->
   <!-- /BODY -->
   <!-- FOOTER/ -->
-    <?php //require_once 'components/footer.php' ?>
+    <?php require_once 'components/footer.php' ?>
   <!-- /FOOTER -->
   <script src="<?= BASE_JS ?>jquery.js"></script>
   <script src="<?= BASE_JS ?>bootstrap.js"></script>

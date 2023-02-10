@@ -17,22 +17,22 @@
 
               <ul class="navbar-nav d-flex justify-content-end negrito">
                 <li class="nav-item">
-                  <a class="nav-link" href="#apresentacao">INÍCIO</a>
+                  <a class="nav-link" href="<?= BASE ?>">INÍCIO</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#sobre">A FATCRED</a>
+                  <a class="nav-link" href="<?= BASE ?>#sobre">A FATCRED</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#emprestimos">EMPRÉSTIMOS</a>
+                  <a class="nav-link" href="<?= BASE ?>#emprestimos">EMPRÉSTIMOS</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#financiamento">FINANCIAMENTOS </a>
+                  <a class="nav-link" href="<?= BASE ?>#financiamento">FINANCIAMENTOS </a>
                 </li>
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                   <a class="nav-link" href="<?= BASE ?>trabalhe-conosco" target="_blank">TRABALHE CONOSCO</a>
-                </li> -->
+                </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#mensagem">FALE CONOSCO</a>
+                  <a class="nav-link" href="<?= BASE ?>#mensagem">FALE CONOSCO</a>
                 </li>
               </ul>
 

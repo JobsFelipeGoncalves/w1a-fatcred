@@ -1,16 +1,18 @@
 <?php
-
-	include('url_response.php');
-
+include('url_response.php');
 	$urlpatterns = array(
 
 
-		'/?(?P<ads>\S+)' => 'index.php',
-		'/' => 'index.php',		
+		'/trabalhe-conosco' => 'empregos.php',
 
-		'/404' => '404.php'
+
+		'/' => 'index.php'
+
+		//CONFIGURAÇÃO DE URL'S PADRÕES
+		// '/trabalhe-conosco?(?P<ads>\S+)' => 'index.php',
+		
+		
 
 	);
-
-	url_response($urlpatterns);
+url_response($urlpatterns);
 ?>

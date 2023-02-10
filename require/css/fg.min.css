@@ -787,8 +787,10 @@
     background-size: cover ;
   }
 
-    #formularioHome input, 
-    #formularioHome textarea{
+    #formularioHome input,
+    #formularioHome textarea,
+    #formularioEmprego input,
+    #formularioEmprego textarea{
       border-radius: 10px;
       color: var(--cor-cinza-800);
       padding: 20px 40px;

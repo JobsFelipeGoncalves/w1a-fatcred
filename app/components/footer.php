@@ -17,9 +17,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#financiamento">Financiamentos </a>
                 </li>
-                <!-- <li class="nav-item">
+                <li class="nav-item">
                   <a class="nav-link" href="<?= BASE ?>trabalhe-conosco" target="_blank">Trabalhe conosco</a>
-                </li> -->
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#mensagem">Fale conosco</a>
                 </li>
@@ -38,7 +38,7 @@
               <strong class = "">
                 Glória de Dourados-MS
               </strong><br />
-              <span>Avenida Presidente Vargas, 1636</span>
+              <span>Avenida Presidente Vargas, 1379</span>
             </p>
             <p class = "mb-1">
               <strong class = "">
@@ -50,7 +50,7 @@
               <strong class = "">
                 Ivinhema - MS
               </strong><br />
-              <span>Avenida Brasil, 553.</span>
+              <span>Avenida Brasil, 360.</span>
             </p>
             <p class = "mb-1">
               <strong class = "">
